@@ -1,1 +1,4 @@
-Ext.ux.UploadWindow is ExtJs component to upload files through web UI.
+Ext.ux.ChooseFilePlugin is a ExtJs plugin for buttons and toolbar items. It adds possibillity to choose file using input element without additional fields(as fileuploadfield).
+
+There is possibility to constrain file size to choose.
+Also after user selects needed file you can new file input element insted of old one (do this only if you took old element to your special "place" e.g. you can took this element to automatically created form for future uploading).
