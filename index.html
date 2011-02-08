@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Choose file</title>
+  <link rel="stylesheet" type="text/css" href="ext/resources/css/ext-all.css"/>
+</head>
+<body>
+  <script type="text/javascript" src="ext/ext-base-debug.js"></script>
+  <script type="text/javascript" src="ext/ext-all-debug.js"></script>
+
+  <script type="text/javascript" src="lib/ux/Ext.ux.ChooseFilePlugin.js"></script>
+  <script type="text/javascript" src="lib/Function.Invoke.js"></script>
+  <script type="text/javascript" src="scripts/GothAr.Panel.js"></script>  
+  
+  <script>
+    Ext.onReady(function(){
+		var eXT = Ext;
+		eXT.QuickTips.init();
+		var panel = new GothAr.Panel({
+			renderTo: eXT.getBody()
+		});        		
+	});	
+  </script>
+
+</body>
+</html>
